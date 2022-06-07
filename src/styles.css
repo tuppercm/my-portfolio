@@ -1,1 +1,23 @@
+body {
+  font-family: "Lato", sans-serif;
+}
 
+.hero {
+  background-color: beige;
+  text-align: center;
+  margin-top: 100px;
+  padding: 40px 10px;
+}
+
+.hero h1 {
+  font-size: 80px;
+  font-family: "Bebas Neue", cursive;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 22px;
+}
