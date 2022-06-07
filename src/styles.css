@@ -1,9 +1,15 @@
+:root {
+  --primary-color: #002a41;
+  --secondary-color: #00adec;
+  --accent-color: #009bde;
+}
+
 body {
   font-family: "Lato", sans-serif;
+  color: var(--primary-color);
 }
 
 .hero {
-  background-color: beige;
   text-align: center;
   margin-top: 100px;
   padding: 40px 10px;
@@ -12,6 +18,19 @@ body {
 .hero h1 {
   font-size: 80px;
   font-family: "Bebas Neue", cursive;
+  opacity: 95%;
+}
+
+.btn-branding {
+  background-color: var(--secondary-color);
+  border-color: var(--accent-color);
+  color: white;
+}
+
+.btn-branding:hover {
+  background-color: #fff;
+  border-color: var(--accent-color);
+  color: var(--secondary-color);
 }
 
 h2 {
