@@ -19,13 +19,15 @@ h3 {
   line-height: 1.5;
 }
 
-.btn-branding {
+.btn-branding,
+.btn-preview {
   background-color: var(--secondary-color);
   border-color: var(--primary-color);
   color: white;
 }
 
-.btn-branding:hover {
+.btn-branding:hover,
+.btn-preview:hover {
   background-color: #fff;
   border-color: var(--primary-color);
   color: var(--secondary-color);
@@ -50,8 +52,39 @@ h3 {
   margin: 30px 0;
 }
 
+.project h3 {
+  color: var(--secondary-color);
+}
+
+.project .skills {
+  font-size: 14px;
+}
+
+.project a {
+  font-size: 14px;
+}
+
+.img-preview {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  border: 2px solid var(--primary-color);
+}
+
 @media (max-width: 480px) {
   .hero h1 {
     font-size: 60px;
+  }
+}
+
+@media (max-width: 573px) {
+  h3,
+  p {
+    text-align: center;
+  }
+
+  .btn-preview {
+    display: block;
+    margin: 5px 0;
   }
 }
