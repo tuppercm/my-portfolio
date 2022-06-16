@@ -22,21 +22,45 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
 
-    <title>Document</title>
+    <title>About Caitlin</title>
   </head>
   <body>
-    <img src="/images/profile.jpg" width="250px" />
-    <h1>About Me</h1>
-    <p>
-      Hi, I'm Caitlin Tupper, a front-end developer living in Wilmington, NC. My
-      BS in Kinesiology led me into the fitness industry where I oddly found my
-      love of software. I eventually transitioned into the fitness software
-      industry as a product and support specialist, documentation writer, and
-      now Product Owner.
-    </p>
-    <p>👉 Check out what I've been working on</p>
-    <h2>Tech Skills</h2>
-    <p>HTML | CSS | JAVASCRIPT | BOOTSTRAP | GITHUB | SEO | API</p>
+    <div class="container mt-5 about-me-page">
+      <div class="row">
+        <h1>About Me</h1>
+      </div>
+
+      <div class="row">
+        <div class="col-md-7 mb-4">
+          <p>
+            Hello! I'm Caitlin Tupper, a junior front-end developer living in
+            Wilmington, North Carolina. My BS in Kinesiology led me into the
+            health club industry where I ended up discovering a love of
+            software. I eventually transitioned into the fitness software
+            industry as a product specialist and documentation writer, and now
+            Product Owner. I love working with a mixture of UX/UI design,
+            compiling requirements, and coding.
+          </p>
+          <a href="#" class="btn btn-branding">View my projects</a>
+        </div>
+        <div class="col-md-5">
+          <img src="/images/profile.jpg" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5 about-me-page">
+      <div class="row">
+        <h2>Tech Skills</h2>
+        <p>HTML | CSS | JAVASCRIPT | BOOTSTRAP | GITHUB | SEO | API</p>
+      </div>
+    </div>
   </body>
 </html>

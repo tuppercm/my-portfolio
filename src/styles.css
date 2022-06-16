@@ -2,6 +2,7 @@
   --primary-color: #002a41;
   --secondary-color: #00adec;
   --accent-color: #009bde;
+  --font-heading: "Bebas Neue", cursive;
 }
 
 body {
@@ -9,14 +10,38 @@ body {
   color: var(--primary-color);
 }
 
-h2 {
+h1 {
   font-size: 36px;
+  font-family: var(--font-heading);
+  opacity: 95%;
+}
+
+h2 {
+  font-size: 30px;
   line-height: 1.5;
+  font-family: var(--font-heading);
 }
 
 h3 {
   font-size: 22px;
   line-height: 1.5;
+}
+
+p {
+  font-size: 18px;
+}
+
+.about-me-page {
+  max-width: 80%;
+}
+
+.about-me-page h1 {
+  font-size: 70px;
+}
+
+.about-me-page img {
+  max-width: 300px;
+  border-radius: 5px;
 }
 
 .btn-branding,
@@ -42,7 +67,7 @@ h3 {
 
 .hero h1 {
   font-size: 90px;
-  font-family: "Bebas Neue", cursive;
+  font-family: var(--font-heading);
   opacity: 95%;
 }
 
@@ -86,5 +111,9 @@ h3 {
   .btn-preview {
     display: block;
     margin: 5px 0;
+  }
+
+  .about-me-page {
+    text-align: center;
   }
 }
