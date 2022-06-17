@@ -31,16 +31,21 @@ p {
   font-size: 18px;
 }
 
-.about-me-page {
-  max-width: 80%;
+.about-me-section,
+.about-me-skills {
 }
 
-.about-me-page h1 {
+.about-me-section {
+  background-color: #e0dada;
+  padding: 50px;
+  border-radius: 5px;
+}
+
+.about-me-section h1 {
   font-size: 70px;
 }
 
-.about-me-page img {
-  max-width: 300px;
+.about-me-section img {
   border-radius: 5px;
 }
 
@@ -113,7 +118,8 @@ p {
     margin: 5px 0;
   }
 
-  .about-me-page {
+  .about-me-section,
+  .about-me-skills {
     text-align: center;
   }
 }
