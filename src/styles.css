@@ -105,6 +105,25 @@ p {
   border-radius: 5px;
 }
 
+.contact-page {
+  text-align: center;
+  padding-top: 40px;
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.contact-links {
+  text-decoration: none;
+  display: block;
+  padding-bottom: 40px;
+  color: var(--primary-color);
+}
+
+.contact-links:hover {
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+
 @media (max-width: 480px) {
   .hero h1 {
     font-size: 60px;
