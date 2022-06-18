@@ -32,10 +32,7 @@ p {
 }
 
 .about-me-section,
-.about-me-skills {
-}
-
-.about-me-section {
+.project-row-odd {
   background-color: #e0dada;
   padding: 50px;
   border-radius: 5px;
@@ -68,6 +65,8 @@ p {
   margin-top: 50px;
   padding: 150px 10px;
   background-image: url("/images/ocean2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .hero h1 {
@@ -94,11 +93,16 @@ p {
   font-size: 14px;
 }
 
+.project-row-even {
+  background-color: #b9c0e2;
+  padding: 50px;
+  border-radius: 5px;
+}
+
 .img-preview {
   margin-top: 8px;
   margin-bottom: 8px;
   border-radius: 5px;
-  border: 2px solid var(--primary-color);
 }
 
 @media (max-width: 480px) {
