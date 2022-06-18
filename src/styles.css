@@ -2,7 +2,8 @@
   --primary-color: #002a41;
   --secondary-color: #00adec;
   --accent-color: #009bde;
-  --font-heading: "Bebas Neue", cursive;
+  --hero-home-heading: "Dancing Script", cursive;
+  --font-heading: "Dancing Script", cursive;
 }
 
 body {
@@ -11,13 +12,13 @@ body {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 70px;
   font-family: var(--font-heading);
   opacity: 95%;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 40px;
   line-height: 1.5;
   font-family: var(--font-heading);
 }
@@ -36,10 +37,6 @@ p {
   background-color: #e0dada;
   padding: 50px;
   border-radius: 5px;
-}
-
-.about-me-section h1 {
-  font-size: 70px;
 }
 
 .about-me-section img {
@@ -71,7 +68,7 @@ p {
 
 .hero h1 {
   font-size: 90px;
-  font-family: var(--font-heading);
+  font-family: var(--hero-home-heading);
   opacity: 95%;
 }
 
