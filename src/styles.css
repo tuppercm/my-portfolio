@@ -32,6 +32,35 @@ p {
   font-size: 18px;
 }
 
+footer {
+  background-color: var(--primary-color);
+  margin-top: 40px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer i {
+  font-size: 40px;
+  margin: 0 30px;
+}
+
+footer p {
+  padding-top: 30px;
+  color: white;
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+footer a {
+  color: white;
+  transition: all 100ms ease-in-out;
+}
+
+footer a:hover {
+  color: var(--secondary-color);
+}
+
 .about-me-section,
 .project-row-odd {
   background-color: #e0dada;
