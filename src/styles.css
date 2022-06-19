@@ -1,6 +1,7 @@
 :root {
   --primary-color: #002a41;
-  --secondary-color: #00adec;
+  --secondary-color: #b9c0e2;
+  --tertiary-color: #e0dada;
   --accent-color: #009bde;
   --font-heading-hero: "Dancing Script", cursive;
   --font-heading: "Dancing Script", cursive;
@@ -105,18 +106,52 @@ footer a:hover {
   border-radius: 5px;
 }
 
-.btn-branding,
-.btn-preview {
+.btn-branding {
   background-color: var(--secondary-color);
   border-color: var(--primary-color);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
   color: #fff;
+  transition: all 100ms ease-in-out;
 }
 
-.btn-branding:hover,
-.btn-preview:hover {
+.btn-branding:hover {
   background-color: #fff;
   border-color: var(--primary-color);
   color: var(--secondary-color);
+}
+
+.btn-branding-reverse {
+  background-color: var(--tertiary-color);
+  border-color: var(--primary-color);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  color: var(--primary-color);
+  transition: all 100ms ease-in-out;
+}
+
+.btn-branding-reverse:hover {
+  background-color: var(--primary-color);
+  border-color: var(--tertiary-color);
+  color: var(--tertiary-color);
+}
+
+.contact-page {
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  color: #fff;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.contact-page-links {
+  color: var(--primary-color);
+  display: block;
+  padding-bottom: 40px;
+  text-decoration: none;
+}
+
+.contact-page-links:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
 }
 
 .hero {
@@ -155,29 +190,9 @@ footer a:hover {
 }
 
 .project-row-even {
-  background-color: #b9c0e2;
-  border-radius: 5px;
-  padding: 50px;
-}
-
-.contact-page {
   background-color: var(--secondary-color);
   border-radius: 5px;
-  color: #fff;
-  padding-top: 40px;
-  text-align: center;
-}
-
-.contact-page-links {
-  color: var(--primary-color);
-  display: block;
-  padding-bottom: 40px;
-  text-decoration: none;
-}
-
-.contact-page-links:hover {
-  color: var(--primary-color);
-  text-decoration: underline;
+  padding: 50px;
 }
 
 @media (max-width: 480px) {
