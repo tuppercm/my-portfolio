@@ -135,6 +135,10 @@ footer a:hover {
   color: var(--tertiary-color);
 }
 
+.btn-left {
+  margin-right: 15px;
+}
+
 .contact-page {
   background-color: var(--secondary-color);
   border-radius: 5px;
