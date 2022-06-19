@@ -32,7 +32,27 @@
     <title>About Caitlin</title>
   </head>
   <body>
-    <div class="container mt-5 about-me-section">
+    <nav>
+      <div class="container d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="/images/profile-photo.jpeg"
+            class="d-none d-sm-block headshot"
+            alt="Profile Photo"
+        /></a>
+        <ul>
+          <li><a href="/" title="Home Page">Home</a></li>
+          <li>
+            <a href="/about.html" class="active" title="About Caitlin">About</a>
+          </li>
+          <li>
+            <a href="/projects.html" title="Caitlin's Projects">Projects</a>
+          </li>
+          <li><a href="/contact.html" title="Contact Caitlin">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container about-me-section">
       <div class="row">
         <h1>About Me</h1>
       </div>
@@ -54,7 +74,11 @@
           >
         </div>
         <div class="col-md-5">
-          <img src="/images/profile.jpg" class="img-fluid" />
+          <img
+            src="/images/profile.jpg"
+            class="img-fluid"
+            alt="Caitlin with her two dogs"
+          />
         </div>
       </div>
     </div>

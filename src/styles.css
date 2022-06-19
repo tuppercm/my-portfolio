@@ -61,10 +61,42 @@ footer a:hover {
   color: var(--secondary-color);
 }
 
+nav {
+  padding: 20px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 20px;
+  line-height: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav .active {
+  color: var(--secondary-color);
+}
+
+nav img {
+  border-radius: 50%;
+  height: 40px;
+}
+
 .about-me-section,
 .project-row-odd {
   background-color: #e0dada;
-  padding: 50px;
+  padding: 40px 50px;
   border-radius: 5px;
 }
 
@@ -88,7 +120,6 @@ footer a:hover {
 
 .hero {
   text-align: center;
-  margin-top: 50px;
   padding: 150px 10px;
   background-image: url("/images/ocean2.jpg");
   background-size: cover;
@@ -171,5 +202,9 @@ footer a:hover {
   .about-me-section,
   .about-me-skills {
     text-align: center;
+  }
+
+  nav a {
+    font-size: 14px;
   }
 }
